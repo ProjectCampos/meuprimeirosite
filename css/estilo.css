@@ -5,9 +5,16 @@ background-color: #4682B4;
 }
 
 .container{
-
-
     width: 80%;
     margin: auto;
-    h1{text-align: center;}
+   
 }
+
+h1{text-align: center;}
+img{
+    width: 60%;
+}
+
+    figure{
+        text-align: center;
+    }
