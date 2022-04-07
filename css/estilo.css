@@ -1,6 +1,8 @@
 body{
-background-color: #4682B4;
-
+background-image: url(https://3.bp.blogspot.com/-TkCHWHcQdGA/Uct1lbQAnQI/AAAAAAAABfs/DGe4dSLf52k/s1600/The-Last-of-Us-brasil+blog.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover ;
 
 }
 
@@ -10,11 +12,23 @@ background-color: #4682B4;
    
 }
 
-h1{text-align: center;}
-img{
-    width: 60%;
+h1{
+    text-align: center;
+}
+.img_corpo{
+    width: 80%;
 }
 
-    figure{
-        text-align: center;
+figure{
+    text-align: center;
+}
+    .img_toop{
+        width: 80%;
+    }
+    p{
+        font-size: 1.4em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-indent: 60px;
+        text-align: justify;
     }
