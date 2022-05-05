@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
 background-image: url(https://3.bp.blogspot.com/-TkCHWHcQdGA/Uct1lbQAnQI/AAAAAAAABfs/DGe4dSLf52k/s1600/The-Last-of-Us-brasil+blog.jpg);
 background-repeat: no-repeat;
@@ -31,4 +35,7 @@ figure{
         font-weight: bold;
         text-indent: 60px;
         text-align: justify;
+    }
+    footer{
+        background-color: black;
     }
