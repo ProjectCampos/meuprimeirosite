@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .menu{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.7) ;
     padding: 2%;
     text-align: center;
     
@@ -15,12 +15,14 @@ html{
     line-height: 1.5;
 }
 h1{
+    text-shadow: 2px 2px 5px#2F4F4F	;
     font-size: 2em;
     margin-top: 1%;
     margin-bottom: 1%;
+
 }
 body{
-background-image: url(https://3.bp.blogspot.com/-TkCHWHcQdGA/Uct1lbQAnQI/AAAAAAAABfs/DGe4dSLf52k/s1600/The-Last-of-Us-brasil+blog.jpg);
+background-image: url(https://www.cabanadoleitor.com.br/wp-content/uploads/2020/05/the-last-of-us-ellie-ps4-theme-dark_p521.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size:cover ;
@@ -39,9 +41,15 @@ section{
 
 h1{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 700;       
+      font-style: oblique;
+
+    	
 }
 .img_corpo{
     width: 80%;
+    
 }
 
 figure{
@@ -52,14 +60,16 @@ figure{
 }
     .img_toop{
         width: 80%;
+        
     }
     p{
         font-size: 1.4em;
         color: rgb(255, 255, 255);
-        font-weight: bold;
+        font-weight: normal;
         text-indent: 60px;
         text-align: justify;
         line-height: 1.5;
+        font-style: oblique;
     }
     footer{
         background-color:  rgba(0,0,0,0.7);
@@ -70,20 +80,4 @@ figure{
     .center{
         text-align: center;
     }
-    .itens_menu a:link, .itens_menu a:visited  {
-        color: rgb(241, 15, 15);
-        text-decoration: none;
-      }
-    
-    .itens_menu a:hover{
-        background-color: rgba(255, 0, 0, 0.3);
-        padding: 0.8%;
-    }
-    
-    .itens_menu a:active{
-        color: black;
-    }
-    
-    #sobre{
-        background-color: #000000;
-    }
+   
