@@ -48,7 +48,7 @@ h1{
     	
 }
 .img_corpo{
-    width: 80%;
+    width: 75%;
     
 }
 
@@ -81,3 +81,25 @@ figure{
         text-align: center;
     }
    
+    
+a:link {
+    color: #4B0082	;
+}
+
+a:visited {
+    color: #2F4F4F		;
+}
+
+a:hover {
+    color: #008080	;
+}
+
+a:active {
+    color: #7B68EE	;
+}
+
+.direita{
+    float:left;
+    margin-right: 2%;
+    width: 45%;
+}
