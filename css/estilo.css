@@ -1,6 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 .menu{
     background-color: rgba(0, 0, 0, 0.301) ;
     padding: 2%;
@@ -40,6 +45,7 @@ section{
 .container{
     width: 80%;
     margin: auto;
+    position: relative;
    
 }
 
@@ -66,6 +72,10 @@ figure{
     .img_toop{
         width: 80%;
         
+    }
+    .img_logo{
+        width: 10%;
+        text-align: center;
     }
     p{
         font-size: 1.4em;
