@@ -7,11 +7,12 @@ header{
     z-index: 1000;
 }
 .menu{
-    background-color: rgba(0, 0, 0, 0.301) ;
+    background-color: rgba(0, 0, 0, 0.034) ;
     padding: 2%;
     text-align: center;
-    position: fixed;
     width: 100%;
+    position: relative;
+    
 
     
 }
@@ -21,7 +22,7 @@ header{
 .itens_menu li{
     font-size: 1.5em;
     line-height: 1.5;
-    
+  
 }
 h1{
     text-shadow: 2px 2px 5px#2F4F4F	;
@@ -71,11 +72,14 @@ figure{
 }
     .img_toop{
         width: 80%;
-        
+        margin-top: 12.5%;
+    }
+    .logo{
+        text-align: center;
     }
     .img_logo{
-        width: 10%;
-        text-align: center;
+        width: 16%;
+        
     }
     p{
         font-size: 1.4em;
