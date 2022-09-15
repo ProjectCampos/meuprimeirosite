@@ -3,6 +3,7 @@ html{
 }
 header{
     background-color: #008080;
+    padding: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -143,11 +144,11 @@ table{
 }
 
 table, th, td {
-    border: 3px solid rgba(0,0,0);
+    border: 3px solid rgba(0, 0, 0, 0.685);
     padding: 1.5%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-shadow: 2px 2px 5px#2F4F4F
     
 
@@ -165,7 +166,7 @@ td:first-child + td {
 
 th{
 
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bolder;
     color; 
          
@@ -184,13 +185,16 @@ audio::-webkit-media-controls-panel{
 form {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
    
   }
 
 .form{
-    background-color: rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(0, 0, 0, 0.267) ;
     padding: 20px;
     border-radius: 10px;
+    
+  
 }
 
 
@@ -216,7 +220,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
 
   input[type=submit] {
     background-color:rgba(189, 175, 175, 0.301)  ;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -256,36 +260,59 @@ input[type=text], input[type=tel], input[type=email], select, textarea  {
           width: 100%;
           margin-top: 0;
       }
-      
+      .logo{
+          text-align: center;
+      }
+      .img_logo{
+          width: 20%;
+      }
+      .banner{
+          margin-top: 40%;
+      }
+      .descer{
+          margin-top: 50%;
+      }
   }
   
   /* Altera configuração quando a tela for maior que 601 px*/
-  @media  screen and (min-width:60px) {
+  @media  screen and (min-width:601px) {
 
       header{
           background-color: #0080800a;
           flex-direction: row;
+          padding: 3%;
       }
       
   }
   .itens_menu{
       position: absolute;
-      top: 45% ;
-      width: 70%;
-      left: 15%;
-      margin-top: 5%;
+      right: 6%;
+      width: 70%
 
 
   }
   .itens_menu ul li{
       display: inline;
-      margin-left: 0% ;
-      padding: 5%;
+      margin-left: 1% ;   
+  }
 
+  .img_logo{
+      width: 30%;
   }
-  .container_descer{
-      
-      margin-top:10%;
+
+  .logo{
+      width: 30%;
+      text-align: left;
   }
-      
+
+  .banner{
+      margin-top: 1%;
+  }
+
+  .descer{
+      margin-top: 13%;
+     
+  }
+
+}
   
